@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'istahitestapp1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_35db46ec7dd24542bd8e76873ced0701 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_de944beafd9f45e8b12f66d378a0ca1c }}
         package: ${{env.DOTNET_ROOT}}/myapp 
